@@ -18,6 +18,8 @@ public class DirList {
     Arrays.sort(list, String.CASE_INSENSITIVE_ORDER);
     for(String dirItem : list)
       System.out.println(dirItem);
+    
+    System.out.println("=========");
   }
 }
 
